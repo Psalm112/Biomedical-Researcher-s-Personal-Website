@@ -1,0 +1,37 @@
+footer{
+    background-color: #f5f6fa !important;
+}
+.footer{
+    text-align: center;
+}
+.footerContainer{
+    display: flex !important;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.footerEle {
+    height: 100%;
+    margin: auto;
+    display: inline-flex;
+    margin-block: 0;
+    padding: 0;
+    flex-direction: row;
+}
+
+.footerEle li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.footerEle li a {
+    color:#555553;
+}
+
+.footerEle li a:hover {
+    color: #81817F;
+}
+.footerSocials li a{
+    font-size: 2em;
+}

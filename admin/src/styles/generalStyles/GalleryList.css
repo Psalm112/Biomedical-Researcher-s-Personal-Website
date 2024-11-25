@@ -1,0 +1,103 @@
+.galleryCont .css-mikc7i{
+    height: max-content !important;
+    background-color: #f5f6fa;
+}
+.galleryCont .MuiButtonBase-root.MuiTab-root.Mui-selected{
+    color: #4e5e72 !important;
+}
+.adminGalleryCont .MuiButtonBase-root.MuiTab-root.Mui-selected {
+    color: #4e5e72 !important;
+}
+.galleryCont .MuiTabs-indicator{
+    background-color: #4e5e72 !important;
+}
+.adminGalleryCont .MuiTabs-indicator {
+    background-color: #8b7486 !important;
+}
+.adminGalleryCont .fslightbox-container{
+    height: 100% !important;
+    min-height: 90vh !important;
+    position: absolute !important;
+}
+
+.adminGalleryCont .fslightbox-absoluted.fslightbox-flex-centered
+{
+    top: 55px;
+    align-items: flex-start !important;
+}
+.adminGalleryCont .fslightbox-source-inner{
+    position: sticky !important;
+        position: -webkit-sticky !important;
+        top: 140px !important;
+        /* transform: translateY(-50%) !important; */
+        height: fit-content !important;
+}
+.adminGalleryCont .fslightbox-loader{
+    position: sticky !important;
+        position: -webkit-sticky !important;
+        top: 50% !important;
+        margin: 0 !important;
+        height: fit-content !important;
+        transform: translateY(-50%) !important;
+}
+.fslightbox-source{
+    max-height: 95vh !important;
+    max-width: 95% !important;
+    margin: auto !important;
+    display: block !important;
+}
+.adminGalleryCont .fslightbox-source{
+    max-height: 67vh !important;
+}
+/* .adminGalleryCont .fslightbox-absoluted.fslightbox-full-dimension{
+    padding-top: 50px;
+} */
+/* .fslightbox-source-inner */
+.adminGalleryCont .fslightbox-nav {
+    position: sticky !important;
+    position: -webkit-sticky !important;
+    top: 75px !important;
+}
+.adminGalleryCont .fslightbox-slide-btn-previous-container{
+    position: sticky !important;
+    position: -webkit-sticky !important;
+    top: 50% !important;
+    float: left;
+    transform: translateY(-50%) !important;
+}
+.adminGalleryCont .fslightbox-slide-btn-next-container {
+    position: sticky !important;
+    position: -webkit-sticky !important;
+    top: 50% !important;
+    float: right;
+    transform: translateY(-50%) !important;
+}
+
+.fslightbox-source-inner video{
+    max-height: 95% !important;
+    /* height: auto !important; */
+    margin: auto !important;
+    width: 95% !important;
+    display: block !important;
+}
+.vidList{
+    height: 100% !important;
+    max-height: 350px !important;
+}
+.vidList img{
+    height: 100% !important;
+}
+.vidList:hover .play-icon{
+    opacity: 1 !important;
+    transform: translate(-50%, -40%) !important;
+    /* transition: 0.5s transform; */
+}
+
+@media screen and (max-width: 540px){
+    .adminGalleryCont .fslightbox-source-inner {
+            top: 50% !important;
+            transform: translateY(-50%) !important;
+    }
+      
+
+}

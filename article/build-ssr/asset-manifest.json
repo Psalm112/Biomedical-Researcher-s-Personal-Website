@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "https://article.victoroyebanji.com/static/css/main.82ab3348.css",
+    "main.js": "https://article.victoroyebanji.com/static/js/main.b1172f72.js",
+    "static/css/27.f732c67b.chunk.css": "https://article.victoroyebanji.com/static/css/27.f732c67b.chunk.css",
+    "static/js/27.1284f3f8.chunk.js": "https://article.victoroyebanji.com/static/js/27.1284f3f8.chunk.js",
+    "static/css/517.1e79a86e.chunk.css": "https://article.victoroyebanji.com/static/css/517.1e79a86e.chunk.css",
+    "static/js/517.f0308883.chunk.js": "https://article.victoroyebanji.com/static/js/517.f0308883.chunk.js",
+    "static/js/787.04f9b03d.chunk.js": "https://article.victoroyebanji.com/static/js/787.04f9b03d.chunk.js",
+    "static/js/967.82b3956b.chunk.js": "https://article.victoroyebanji.com/static/js/967.82b3956b.chunk.js",
+    "static/js/585.95a41348.chunk.js": "https://article.victoroyebanji.com/static/js/585.95a41348.chunk.js",
+    "static/js/446.173e3970.chunk.js": "https://article.victoroyebanji.com/static/js/446.173e3970.chunk.js",
+    "index.html": "https://article.victoroyebanji.com/index.html",
+    "main.82ab3348.css.map": "https://article.victoroyebanji.com/static/css/main.82ab3348.css.map",
+    "main.b1172f72.js.map": "https://article.victoroyebanji.com/static/js/main.b1172f72.js.map",
+    "27.f732c67b.chunk.css.map": "https://article.victoroyebanji.com/static/css/27.f732c67b.chunk.css.map",
+    "27.1284f3f8.chunk.js.map": "https://article.victoroyebanji.com/static/js/27.1284f3f8.chunk.js.map",
+    "517.1e79a86e.chunk.css.map": "https://article.victoroyebanji.com/static/css/517.1e79a86e.chunk.css.map",
+    "517.f0308883.chunk.js.map": "https://article.victoroyebanji.com/static/js/517.f0308883.chunk.js.map",
+    "787.04f9b03d.chunk.js.map": "https://article.victoroyebanji.com/static/js/787.04f9b03d.chunk.js.map",
+    "967.82b3956b.chunk.js.map": "https://article.victoroyebanji.com/static/js/967.82b3956b.chunk.js.map",
+    "585.95a41348.chunk.js.map": "https://article.victoroyebanji.com/static/js/585.95a41348.chunk.js.map",
+    "446.173e3970.chunk.js.map": "https://article.victoroyebanji.com/static/js/446.173e3970.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82ab3348.css",
+    "static/js/main.b1172f72.js"
+  ]
+}

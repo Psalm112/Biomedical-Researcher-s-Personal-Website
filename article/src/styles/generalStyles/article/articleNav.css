@@ -1,0 +1,47 @@
+.articleNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aNavIcon{
+    display: flex;
+}
+.aNavLiCont Ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+    border-right: 3px solid #4e5e72;
+}
+.aNavLiCont li{
+    list-style-type: none;
+    padding: 15px;
+}
+.aNavLiCont li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #4e5e72;
+}
+
+
+@media screen and (max-width:700px) {
+    .aNavLiCont li {
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .aNavLiCont li {
+        padding: 5px;
+        font-size: 0.9em;
+    }
+}
+@media screen and (max-width:300px) {
+    .articleNav {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .aNavLiCont Ul{
+        border-right: 0;
+    }
+}

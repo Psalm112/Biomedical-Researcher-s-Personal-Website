@@ -1,0 +1,278 @@
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/index.css ***!
+  \*****************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap);
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/index.css (1) ***!
+  \*********************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&display=swap);
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/index.css (2) ***!
+  \*********************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&display=swap);
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/index.css (3) ***!
+  \*********************************************************************/
+*{
+  box-sizing: border-box !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #B3A1A1;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h2{
+      color: #8B7486;
+}
+h1, h2{
+  font-size-adjust: 100%;
+  /* font-family: 'Darker Grotesque', sans-serif !important; */
+  font-family: 'Roboto Slab', serif !important;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+/* .fslightbox-container{
+ transform: translate(-50%, -50%);
+  height: 100vh;
+} */
+@media screen and (max-width:899px) {
+  .Nav .logoSection:nth-of-type(1){
+    display: none !important;
+  }
+  .Nav .homeSmall.logoSection {
+    display: flex !important;
+    margin: auto;
+  }
+}
+@media screen and (max-width:450px) {
+  .small.logoSection div:nth-child(1) {
+    display: none;
+  }
+  .small.logoSection div:nth-child(2) {
+    width: 120px !important;
+  }
+}
+
+/*!***************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/App.css ***!
+  \***************************************************************/
+.loader-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background: rgba(138, 116, 152,0.7);
+  z-index: 1;
+  /* animation: wrapoff 0.5s linear forwards;
+  animation-delay: 1.5s;
+  animation-iteration-count: infinite; */
+}
+@keyframes wrapoff {
+  0% {
+    opacity: 0.9;
+  }
+  50%{
+    opacity: 0.6;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+.spinner {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+    transform: rotate(-45deg);
+}
+.spinner::before {
+  content: "";
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: 7px solid transparent;
+  animation: animate 1.5s linear forwards;
+  animation-iteration-count: infinite;
+}
+/* .spinner:hover::before {
+  
+} */
+@keyframes animate {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: #4e5e72;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+  16.65% {
+    width: 100%;
+    height: 0;
+    border-top-color: #4e5e72;
+    border-left-color: #4e5e72;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+  }
+
+  33.3%, 100% {
+    width: 100%;
+    height: 100%;
+    border-top-color: #4e5e72;
+    border-left-color: #4e5e72;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+  }
+}
+
+
+.spinner::after {
+  content: "";
+  position: absolute;
+  bottom: -7px;
+  left: -7px;
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: 7px solid transparent;
+  animation: animates 1.5s linear forwards;
+  /* animation-delay: 0.5s; */
+  animation-iteration-count: infinite;
+}
+
+
+
+@keyframes animates {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+    
+  33.3% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-bottom-color: #4e5e72;
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+
+  49.95% {
+    width: 100%;
+    height: 0;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: #4e5e72;
+    border-right-color: #4e5e72;
+  }
+
+  66.6%, 100% {
+    width: 100%;
+    height: 100%;
+    border-top-color: transparent;
+    border--color: transparent;
+    border-bottom-color: #4e5e72;
+    border-right-color: #4e5e72;
+  }
+}
+
+.loaderInner{
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  color: black;
+  transform: rotate(90deg);
+}
+.loaderInner::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: -6px;
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: 6px solid transparent;
+  animation: animateV 1.5s linear forwards;
+  /* animation-delay: 1s; */
+  animation-iteration-count: infinite;
+}
+
+
+
+@keyframes animateV {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+
+  66.6% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-bottom-color: #4e5e72;
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+
+  83.25% {
+    width: 100%;
+    height: 0;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: #4e5e72;
+    border-right-color: #4e5e72;
+  }
+
+  100% {
+    width: 100%;
+    height: 100%;
+    border-top-color: transparent;
+    border--color: transparent;
+    border-bottom-color: #4e5e72;
+    border-right-color: #4e5e72;
+  }
+}
+/* @keyframes spin-anim {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+} */

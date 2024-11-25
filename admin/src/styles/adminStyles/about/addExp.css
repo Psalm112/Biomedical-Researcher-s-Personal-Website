@@ -1,0 +1,58 @@
+.addTask {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    z-index: 100;
+}
+.addTask.addArticle{
+    display: flex;
+}
+.addTask .css-i4bv87-MuiSvgIcon-root{
+    fill: #755566;
+}
+.addTask input {
+    height: 40px;
+    border: unset;
+    font-size: 18px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-bottom: 1.5px solid hsl(210, 10%, 75%);
+    padding-left: 5px;
+    background-color: #D6D5DF;
+}
+
+.addTask input:focus {
+    outline: none;
+}
+
+.addTask .button {
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: #755566;
+}
+
+.addTask textarea {
+    height: 150px;
+    background-color: #D6D5DF;
+    border-color: hsl(210, 10%, 75%);
+    padding: 5px;
+    font-size: 18px;
+}
+
+.addTask textarea:focus {
+    outline: none;
+}
+
+.addTask .button:hover {
+    background-color: #A193A5;
+}
+
+.addTask .button:active {
+    background-color: #8B7486;
+}
+.addTask .react-datepicker__close-icon::after{
+    background-color: #755566 !important;
+}

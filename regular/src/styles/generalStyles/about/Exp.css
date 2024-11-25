@@ -1,0 +1,134 @@
+/* swiper css */
+
+.exp {
+    /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px; */
+    margin: 0;
+    padding: 25px 0;
+    position: relative;
+    /* height: 100%; */
+    background-color: #f5f6fa;
+}
+.exph3{
+    text-align: center;
+}
+.exp h2{
+    display: inline-block;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid;
+    padding:0 10px 5px;
+}
+/* .exp h3{
+  z-index: 3;  
+  color: #000;
+  text-transform: uppercase;
+} */
+.exp .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.exp .swiper-slide {
+    /* text-align: center;
+    font-size: 18px; */
+
+    /* Center slide text vertically */
+    max-width: max-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.exp .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* expStyle */
+.expDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.expDivCircle{
+    border-top: 2px solid #9FAACE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+.expLine{
+    width: 2px;
+    height: 70px;
+    background-color: #9FAACE;
+}
+.expCircle{
+    height: 350px;
+    width: 350px;
+    padding: 40px;
+    border: 2px solid #9FAACE;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.expDate{
+    color: #4e5e72;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+/* .expDivCircle::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 3px;
+    height: 140px;
+    background: #000;
+} */
+.expDesc{
+    text-align: center;
+    color: #4e5e72;
+}
+
+
+@media screen and (max-width:900px) {
+    .expMobile{
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        width: 90vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .expLine {
+        height: 50px;
+    }
+    .expDiv {
+        margin: 20px 0;
+    }
+}
+@media screen and (max-width:400px) {
+    .expCircle {
+        height: 300px;
+        width: 300px;
+    }
+    
+}

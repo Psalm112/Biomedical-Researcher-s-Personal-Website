@@ -1,0 +1,101 @@
+.adminLogin .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+    color: #4e5e72 !important;
+}
+.adminLogin .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline,
+.css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: #bab4c2 !important;
+}
+.adminContainer{
+    background-color: #f5f6fa;
+    /* background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; */
+}
+.adminMain .css-fxbtpg, .adminMain{
+    background: rgb(245, 246, 250) !important;
+    background: radial-gradient(circle, rgba(245, 246, 250, 1) 0%, rgba(214, 213, 223, 1) 35%, rgba(186, 180, 194, 1) 100%) !important;
+    /* border-radius: 16px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    /* border: 1px solid #a497aa; */
+}
+.adminSide{
+    background: rgb(214, 213, 223);
+    background: radial-gradient(circle, rgba(214, 213, 223, 0.8) 0%, rgba(186, 180, 194, 0.8) 100%) !important;
+    /* background-image: linear-gradient(to left bottom, #d6d5df, #dbdbe4, #e1e2e9, #e7e8ee, #edeef3, #eaebf1, #e8e8ee, #e5e5ec, #dad9e2, #cfccd7, #c4c0cd, #bab4c2) !important; */
+    /* border-radius: 16px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(100.5px);
+    /* border: 1px solid #a497aa; */
+}
+/* .adminSide .css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+    background-color: transparent !important;
+} */
+.adminSide .MuiDrawer-paper{
+    background-color: transparent !important;
+}
+.adminSide .css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+    color: #4e5e72 !important;
+}
+.adminSide a, .adminSide a .css-i4bv87-MuiSvgIcon-root{
+    fill: #4e5e72 !important;
+    color: #4e5e72 !important;
+}
+.adminNav{
+    /* From https://css.glass */
+    background: rgb(214, 213, 223) !important;
+    background: linear-gradient(90deg, rgba(214, 213, 223, 0.8) 0%, rgba(186, 180, 194, 0.8) 100%) !important;
+    /* background-image: linear-gradient(to left, rgba(146, 123, 140, 0.3), rgba(152, 130, 147, 0.3), rgba(159, 137, 153, 0.3), rgba(165, 144, 160, 0.3), rgba(164, 151, 170, 0.3), rgba(162, 158, 178, 0.3), rgba(161, 165, 184, 0.3), rgba(161, 172, 189, 0.3)) !important; */
+    /* border-radius: 16px; */
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important; */
+    backdrop-filter: blur(7.5px);
+    box-shadow: 20px 20px 40px #8a8b8d,
+            -20px -20px 40px #e6e7eb;
+    -webkit-backdrop-filter: blur(7.5px);
+    /* border: 1px solid rgba(127, 134, 116, 1); */
+}
+/* .adminNav .css-dhvns5-MuiButtonBase-root-MuiIconButton-root{
+    color: #4e5e72 !important;
+}
+.adminNav .css-vubbuv{
+    color: #4e5e72 !important;
+} */
+
+.menuIcon.MuiSvgIcon-root{
+    color: #4e5e72 !important
+}
+.adminNav h1{
+    color: #4e5e72 !important;
+}
+
+@media screen and (min-width: 541px) {
+    .adminContainer .adminProfileAvatar {
+        width: 56px !important;
+        height: 56px !important;
+    }
+}
+@media screen and (max-width:540px) {
+    /* .css-aq1gdx-MuiDrawer-docked .MuiDrawer-paper{
+        width: 0px !important;
+    } */
+    
+    .adminSide.closeSide .MuiDrawer-paper{
+        width: 0px !important;
+    }
+    .adminNav .menuIconButton.MuiButtonBase-root.MuiIconButton-root {
+        margin-right: 10px !important;
+    }
+    .adminContainer .adminProfile{
+        margin-right: 10px !important;
+    }
+    .adminContainer .adminProfile h2{
+        font-size: 18px;
+    }
+    .adminContainer .adminProfile p {
+        font-size: 12px;
+    }
+}

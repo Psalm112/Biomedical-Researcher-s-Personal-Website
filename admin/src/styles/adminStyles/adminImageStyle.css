@@ -1,0 +1,8 @@
+.adminImg iframe{
+    margin-top: 50PX;
+    height: 60vh !important;
+    width: 100% !important;
+    border: 0 !important;
+    border-image-width: 0 !important;
+    border-color: transparent !important;
+}

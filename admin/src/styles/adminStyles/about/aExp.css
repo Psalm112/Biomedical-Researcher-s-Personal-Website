@@ -1,0 +1,219 @@
+.task {
+    width: 100%;
+    padding: 15px 20px;
+    position: relative;
+    border-left: 4px solid #634100;
+    background-color: rgba(78, 94, 114,0.2);
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 16px;
+        
+}
+.adminAbout .task{
+    border: none !important;
+}
+.task--borderColor {
+    border-color: green;
+    box-shadow: 0 6px 18px -9px hsl(210, 15%, 65%);
+}
+
+.task__body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+    margin: auto;
+}
+.task__body h3{
+    text-transform: uppercase;
+}
+.checkbox-custom {
+    display: none;
+}
+
+.checkbox-custom-label {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.checkbox-custom+.checkbox-custom-label:before {
+    content: '';
+    background: inherit;
+    border-radius: 5px;
+    border: 2px solid hsl(210, 15%, 70%);
+    display: inline-block;
+    vertical-align: middle;
+    width: 12px;
+    height: 12px;
+    padding: 2px;
+    margin-right: 10px;
+}
+
+.checkbox-custom:checked+.checkbox-custom-label:after {
+    content: "";
+    padding: 2px;
+    position: absolute;
+    width: 2px;
+    height: 6px;
+    border: solid green;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    top: 2px;
+    left: 5px;
+}
+
+.task__body p {
+    margin: 10px 0 0 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.task__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.task__buttons>button {
+    background-color: #755566;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+.task__buttons>button:hover {
+    background-color: #A193A5;
+}
+
+.task__buttons>button:active {
+    background-color: #A193A5;
+}
+
+.task__deleteNedit button {
+    margin-right: 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: #634100;
+}
+
+.task__editButton:hover {
+    color: hsl(210, 20%, 25%);
+}
+
+.task__editButton:active {
+    color: hsl(210, 10%, 55%);
+}
+
+.task__deleteNedit .task__deleteButton {
+    color: #a22939;
+}
+
+.task__deleteButton:hover {
+    color: #ca5b6a;
+}
+
+.task__deleteButton:active {
+    color: hsl(0, 80%, 80%);
+}
+.editSection .tox.tox-tinymce.tox-fullscreen{
+    top: 10% !important;
+    left: 2.3% !important;
+    width: 95% !important;
+    height: 90% !important;
+}
+.editSection .css-1rwt2y5-MuiButtonBase-root-MuiButton-root{
+    border-color: #634100 !important;
+    color: #755566 !important;
+}
+.editSection{
+    padding-bottom: 30px;
+}
+.editor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.editor .tox.tox-tinymce.tox-platform-touch{
+    width: 100% !important;
+    /* width: 90% !important; */
+}
+
+
+/* artice mediaList style */
+.mediaListCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.mediaListCont p{
+    text-align: center;
+    font-size: 12px;
+}
+.mediaListCont .css-i4bv87-MuiSvgIcon-root{
+    fill: #755566 !important;
+}
+.mediaType{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mediaName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.loadMediaCont{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+
+}
+.loadMedia{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #755566;
+}
+.loadMedia p{
+    font-weight: bold;
+    font-size: 1em;
+}
+.loadMedia div{
+    width: 100%;
+    height: 100%;
+}
+.loadMedia img, .loadMedia audio, .loadMedia video{
+    max-width: 100%;
+    max-height: 300px;
+}
+.setArtiDesc button:nth-child(1):hover{
+    background-color: #bab4c2 !important;
+}
+@media screen and (max-width:800px) {
+    .task{
+        padding: 15px 10px;
+    }    
+}

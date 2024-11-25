@@ -1,0 +1,23 @@
+.hdcont {
+    width: 100%;
+    height: 30vh;
+    background-color: #f5f6fa;
+    color: #8A7498;
+}
+
+.hdcont div {
+    margin: auto;
+    align-self: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hdcont h2 {
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 5vw;
+    text-transform: uppercase;
+}
